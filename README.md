@@ -30,56 +30,56 @@
 
 1.单个音乐 
 	
-	```
-	MusicPlay({audioUrl:"music/xxx.mp3"});
-	MusicPlay({audioUrl: {title:"xxxxx", source:"music/xxx.mp3"}});
-	```
+```javascript
+MusicPlay({audioUrl:"music/xxx.mp3"});
+MusicPlay({audioUrl: {title:"xxxxx", source:"music/xxx.mp3"}});
+```
 
 2.多个音乐 
 	
-	```
-	MusicPlay({
-	audioUrl:[
-		{title:"xxxxx", source:"music/xxx.mp3"}, 
-		{title:"xxxxx2", source:"music/xxx2.mp3"}
-		]
-	});
-	```
+```javascript
+MusicPlay({
+audioUrl:[
+	{title:"xxxxx", source:"music/xxx.mp3"}, 
+	{title:"xxxxx2", source:"music/xxx2.mp3"}
+	]
+});
+```
 
 3.指定节点 
 	
-	```
-	MusicPlay({
-		nodeId: "dntest",
-		audioUrl:"music/xxx.mp3"
-	});
-	```
+```javascript
+MusicPlay({
+	nodeId: "dntest",
+	audioUrl:"music/xxx.mp3"
+});
+```
 
 4.指定位置 
 	
-	```
-	MusicPlay({
-		boxStyle: "top: 10px; left: 20px; opacity: 0.5;",
-		audioUrl:"music/xxx.mp3"
-	});
-	```
+```javascript
+MusicPlay({
+	boxStyle: "top: 10px; left: 20px; opacity: 0.5;",
+	audioUrl:"music/xxx.mp3"
+});
+```
 
 5.修改皮肤 
 
 按钮图（宽高比：1:2） 
 	
-	```
-	MusicPlay({
-		buttonSrc: "icon.png",
-		audioUrl:"music/xxx.mp3"
-	});
-	```
+```javascript
+MusicPlay({
+	buttonSrc: "icon.png",
+	audioUrl:"music/xxx.mp3"
+});
+```
 
 播放器 
 	
-	```
-	MusicPlay({
-		htmls: "<div>.........<div>",
-		audioUrl:"music/xxx.mp3"
-	});
-	```
+```javascript
+MusicPlay({
+	htmls: "<div>.........<div>",
+	audioUrl:"music/xxx.mp3"
+});
+```
