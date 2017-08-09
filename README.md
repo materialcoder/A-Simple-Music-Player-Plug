@@ -1,5 +1,5 @@
-# A-Simple-Music-Player-Plug
-一个极简音乐播放插件
+# A-Simple-Music-Player-Plug 
+一个极简音乐播放插件 
 
 ##它能做到什么？ 
 ---------------------- 
